@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello, WebVR! - A-Frame</title>
+    <meta name="description" content="Hello, WebVR! - A-Frame"/>
+    <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+</head>
+<body>
+<a-scene>
+    <a-entity rotation="0 0 0">
+        <a-dodecahedron
+                position="1 2 -6"
+                rotation="0 0 0"
+                width="20"
+                height="3"
+                color="#d62727"
+        ></a-dodecahedron>
+
+        <a-plane
+                position="4 2 -6"
+                rotation="0 0 0"
+                width="500"
+                height="3"
+                color="#7BC8C4"
+        ></a-plane>
+
+
+        <a-torus-knot
+                p="2" q="7"
+                radius-tubular="0.3"
+                radius="20"
+                arc="45"
+                position="0 0 -4"
+                rotation="-90 0 0"
+                width="500"
+                height="3"
+                color="#7BC8A4"
+        ></a-torus-knot>
+
+        <a-dodecahedron
+                position="1 0 -4"
+                rotation="-90 0 0"
+                width="500"
+                height="3"
+                color="#d62727"
+        ></a-dodecahedron>
+
+
+        <a-plane
+                position="0 0 -4"
+                rotation="-90 0 0"
+                width="500"
+                height="3"
+                color="#7BC8A4"
+        ></a-plane>
+
+
+        <a-plane
+                src="prekol1.jpg"
+                position="15 40 -4"
+                rotation="-320 0 0"
+                width="150"
+                height="150"
+                color="#7BC8C4"
+        ></a-plane>
+
+        <a-dodecahedron
+                position="1 5 -4"
+                rotation="-270 0 0"
+                width="500"
+                height="3"
+                color="#d62727"
+        ></a-dodecahedron>
+
+        <a-plane
+                position="0 5 -4"
+                rotation="-270 0 0"
+                width="500"
+                height="3"
+                color="#7BC8A4"
+        ></a-plane>
+
+
+        <a-text
+                value="0_0"
+                position="1 2 -4.4"
+                rotation="0 -90 0"
+                width="10"
+                height="10"
+                color="#d62727"
+        ></a-text>
+
+        <a-dodecahedron
+                position="1 2 -2"
+                rotation="-180 0 0"
+                width="500"
+                height="3"
+                color="#d62727"
+        ></a-dodecahedron>
+
+        <a-plane
+                src="prekol.jpg"
+                position="4 2 50"
+                rotation="-550 0 0"
+                width="150"
+                height="150"
+                color="#7BC8C4"
+        ></a-plane>
+
+        <a-plane
+                position="4 2 -2"
+                rotation="-180 0 0"
+                width="500"
+                height="3"
+                color="#7BC8C4"
+        ></a-plane>
+
+        <a-sky color="#804747"></a-sky>
+    </a-entity>
+</a-scene>
+
+</body>
+</html>
